@@ -19,27 +19,74 @@
 }
 
 /*여행 영역*/
-.travel {
+.skll_1 {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     margin-bottom: 5%;
     text-align: center;
 }
 
-.travel {
+.skll_1 {
     position: relative;
     width: 100%;
     height: 200%;
 }
 
+/* SKILL */
+#skill {
+    float: left;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+
+#skill > h3 {
+    margin-top: 80px;
+    font-size: 24px;
+}
+
+#skill > img {
+    margin-top: 80px;
+    padding: 6px;
+}
+
+/*HTML*/
+#skill > img:nth-child(2) {
+    width: 100px;
+}
+
+/*CSS*/
+#skill > img:nth-child(3) {
+    width: 100px;
+    padding-right: 80px;
+}
+
+/*JS*/
+#skill > img:nth-child(4) {
+    width: 100px;
+}
+
+#skill .skillcon {
+    margin: auto;
+    margin-top: 30px;
+    width: 620px;
+    height: 10px;
+    font-family: scor6;
+}
+
+#skill li {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
 
 /* Text styles */
 h1,
 .title {
-    font-size: 26px;
-    font-weight: normal;
-    line-height: 1.0;
-    color: #2e374e;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #003764;
 }
 
 h2,
@@ -192,6 +239,7 @@ h3,
     margin: 0;
     padding: 0;
 }
+
 .the-header {
     position: fixed;
     z-index: 1030;
@@ -201,7 +249,9 @@ h3,
     border-color: #dbdbdf;
     border-style: solid;
     background-color: rgba(255, 255, 255, 0.9);
-}.the-header > div {
+}
+
+.the-header > div {
     height: 75px;
     display: -ms-flexbox;
     display: flex;
@@ -213,12 +263,18 @@ h3,
     align-items: center;
     -ms-flex-pack: center;
     justify-content: center;
-}.the-header .logo img {
+}
+
+.the-header .logo img {
     height: 37px;
-}.the-header .spacer {
+}
+
+.the-header .spacer {
     -ms-flex-positive: 1;
     flex-grow: 1;
-}.the-header ul {
+}
+
+.the-header ul {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: row;
@@ -228,14 +284,18 @@ h3,
     margin-top: 0;
     margin-bottom: 0;
     margin-right: -10px;
-}.the-header ul li {
+}
+
+.the-header ul li {
     list-style-type: none;
     font-size: 14px;
     font-weight: 400;
     line-height: 1;
     text-align: center;
     padding: 30px 22px;
-}.the-header ul li a {
+}
+
+.the-header ul li a {
     color: #003764;
     text-decoration: none;
 }
@@ -245,12 +305,18 @@ h3,
     border-top: 1px #dbdbdf solid;
 }
 
-}.the-footer .desktop {
+}
+
+.the-footer .desktop {
     color: #747f9b;
-}.the-footer .spacer {
+}
+
+.the-footer .spacer {
     -ms-flex-positive: 10;
     flex-grow: 10;
-}.the-footer .section {
+}
+
+.the-footer .section {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: row;
@@ -260,9 +326,21 @@ h3,
     -ms-flex-pack: center;
     justify-content: center;
     width: 100%;
-}.the-footer .section.top {
+}
+
+.the-landing .section-confidence .item-container .item .img-container,
+.the-info .section-confidence .item-container .item .img-container,
+.the-com .section-confidence .item-container .item .img-container {
+    width: 140px;
+    height: 140px;
+    object-fit: none;
+}
+
+.the-footer .section.top {
     padding: 26px 0 46px 0;
-}.the-footer .section.bottom {
+}
+
+.the-footer .section.bottom {
     padding: 42px 0 57px;
     border-top: 1px #dbdbdf solid;
 }
@@ -271,6 +349,7 @@ h3,
 .the-landing-country_box a {
     text-decoration: none;
 }
+
 .the-landing-countries,
 .the-event-univ .section-group div.the-landing-countries {
     background-color: #f8fafd;
@@ -286,6 +365,7 @@ h3,
 .the-event-univ .section-group div.the-landing-countries h1 {
     margin: 0 0 50px 0;
 }
+
 .the-landing-countries ul,
 .the-event-univ .section-group div.the-landing-countries ul {
     width: 100%;
@@ -311,6 +391,7 @@ h3,
     -ms-flex-align: center;
     align-items: center;
 }
+
 .the-landing-countries ul li img,
 .the-event-univ .section-group div.the-landing-countries ul li img {
     width: 50px;
