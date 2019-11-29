@@ -1,0 +1,407 @@
+@import url(https://img.the.com/public/fonts/NotoSansCJK.css);
+@charset "UTF-8";
+
+/* use the prefix for each component */
+/* New Branding Color BEGIN */
+/* New Branding Color END */
+
+/* 프로필 영역*/
+
+.profile_head {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#history {
+    margin-top: 15%;
+}
+
+/*여행 영역*/
+.travel {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.travel {
+    position: relative;
+    width: 100%;
+    height: 200%;
+}
+
+
+/* Text styles */
+h1,
+.title {
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 1.0;
+    color: #2e374e;
+}
+
+h2,
+.subtitle {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.0;
+    color: #2e374e;
+}
+
+h3,
+.hd-subtitle {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.0;
+    color: #2e374e;
+}
+
+.new-text-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #003764;
+}
+
+.new-text-subtitle {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    color: #003764;
+}
+
+.new-text-subtitle-grey {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    color: #707b98;
+}
+
+/* 기본 */
+.the-container,
+.the-header,
+.the-footer,
+.the-landing-countries,
+.the-landing .intro,
+.the-info .intro,
+.the-com .intro,
+.the-landing .description,
+.the-info .description,
+.the-com .description,
+.the-landing .pros,
+.the-info .pros,
+.the-com .pros,
+.the-landing .section-student,
+.the-info .section-student,
+.the-mypage > div,
+.the-recipients,
+.the-recipient-list-section,
+.the-recipients-update,
+.the-terms,
+.the-privacy,
+.the-faq,
+.the-com > div,
+.the-notice > div,
+.the-main > div,
+.the-photo-upload,
+.the-currency-component,
+.the-remit-component,
+.the-remit-extended-component,
+.the-remit-success,
+.the-event-univ > div,
+.the-reset-password,
+.the-verify-account-photo-upload,
+.the-business-landing .intro,
+.the-business-landing .usage,
+.the-business-landing .pros,
+.the-business-landing .award,
+.the-business-landing .repute,
+.the-business-landing .begin {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.the-container > div,
+.the-header > div,
+.the-footer > div,
+.the-landing-countries > div,
+.the-event-univ .section-group div.the-landing-countries > div,
+.the-landing .intro > div,
+.the-info .intro > div,
+.the-com .intro > div,
+.the-landing .description > div,
+.the-info .description > div,
+.the-com .description > div,
+.the-landing .pros > div,
+.the-info .pros > div,
+.the-com .pros > div,
+.the-landing .section-student > div,
+.the-info .section-student > div,
+.the-com .section-student > div,
+.the-mypage > div > div,
+.the-recipients > div,
+.the-recipient-list-section > div,
+.the-recipients-update > div,
+.the-terms > div,
+.the-privacy > div,
+.the-faq > div,
+.the-com > div > div,
+.the-notice > div > div,
+.the-main > div > div,
+.the-photo-upload > div,
+.the-currency-component > div,
+.the-remit-component > div,
+.the-remit-extended-component > div,
+.the-remit-success > div,
+.the-event-univ > div > div,
+.the-reset-password > div,
+.the-verify-account-photo-upload > div,
+.the-business-landing .intro > div,
+.the-business-landing .usage > div,
+.the-business-landing .pros > div,
+.the-business-landing .award > div,
+.the-business-landing .repute > div,
+.the-business-landing .begin > div {
+    width: calc(100% - 32px);
+    max-width: 960px;
+}
+
+.reset-bootstrap h1,
+.the-event-univ h1,
+.the-business-landing h1,
+.reset-bootstrap h2,
+.the-event-univ h2,
+.the-business-landing h2,
+.reset-bootstrap h3,
+.the-event-univ h3,
+.the-business-landing h3,
+.reset-bootstrap p,
+.the-event-univ p,
+.the-business-landing p {
+    margin: 0;
+    padding: 0;
+}
+.the-header {
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    left: 0;
+    border-width: 0 0 1px 0;
+    border-color: #dbdbdf;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.9);
+}.the-header > div {
+    height: 75px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}.the-header .logo img {
+    height: 37px;
+}.the-header .spacer {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}.the-header ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: -10px;
+}.the-header ul li {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    padding: 30px 22px;
+}.the-header ul li a {
+    color: #003764;
+    text-decoration: none;
+}
+
+.the-footer {
+    background-color: #f8fafd;
+    border-top: 1px #dbdbdf solid;
+}
+
+}.the-footer .desktop {
+    color: #747f9b;
+}.the-footer .spacer {
+    -ms-flex-positive: 10;
+    flex-grow: 10;
+}.the-footer .section {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}.the-footer .section.top {
+    padding: 26px 0 46px 0;
+}.the-footer .section.bottom {
+    padding: 42px 0 57px;
+    border-top: 1px #dbdbdf solid;
+}
+
+/* country */
+.the-landing-country_box a {
+    text-decoration: none;
+}
+.the-landing-countries,
+.the-event-univ .section-group div.the-landing-countries {
+    background-color: #f8fafd;
+    border: solid 1px #dbdbdf;
+    border-width: 1px 0 1px 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+.the-landing-countries h1,
+.the-event-univ .section-group div.the-landing-countries h1 {
+    margin: 0 0 50px 0;
+}
+.the-landing-countries ul,
+.the-event-univ .section-group div.the-landing-countries ul {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.the-landing-countries ul li,
+.the-event-univ .section-group div.the-landing-countries ul li {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 40px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.the-landing-countries ul li img,
+.the-event-univ .section-group div.the-landing-countries ul li img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 16px;
+}
+
+/* background*/
+.the-landing .-row,
+.the-info .-row,
+.the-landing .-row > div,
+.the-info .-row > div,
+.the-landing .intro,
+.the-info .intro,
+.the-com.intro {
+    position: relative;
+    background-position: calc((100vw - 1440px) / 2) bottom;
+    background-repeat: no-repeat;
+    background-size: 1230px 568px;
+}
+
+
+.the-landing .intro img,
+.the-info .intro img,
+.the-com .intro img {
+    width: 700px;
+    position: absolute;
+    bottom: 40px;
+    right: calc(100px + (100vw - 1440px) / 2);
+}
+
+/* <-->*/
+#root {
+    padding-top: 76px;
+    background-color: #ffffff;
+}
+
+.the-landing .intro > div,
+.the-info .intro > div,
+.the-com .intro > div {
+    padding-top: 126px;
+    padding-bottom: 156px;
+    z-index: 1;
+}
+
+/* main box */
+.the-landing .intro .badge,
+.the-info .intro .badge,
+.the-com .intro .badge {
+    margin-bottom: 20px;
+    width: 270px;
+    height: 34px;
+    padding: 0 23px;
+    border-radius: 18px;
+    background-color: #ce3131;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/* <-profile-> */
+.the-landing .section-confidence,
+.the-info .section-confidence,
+.the-com .section-confidence {
+    padding: 40px 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: solid 1px #dbdbdf;
+    border-width: 0 0 1px 0;
+}
+
+/* history */
+.the-landing .section-confidence .item-container,
+.the-info .section-confidence .item-container,
+.the-com .section-confidence .item-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 1260px;
+    width: 100%;
+    padding: 0 15px;
+}

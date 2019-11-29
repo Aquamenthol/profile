@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>34B26180-1E0A-49AB-A5C2-FF9EDAD07384</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 17.1428571 0 17.1428571 15.7142857 0 15.7142857"></polygon>
+    </defs>
+    <g id="Footer/HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-650.000000, -160.000000)">
+        <g id="btn_kakaotalk" transform="translate(650.000000, 160.000000)">
+            <g id="btn_blog-copy" fill="#BAC0CD">
+                <path d="M15,30 C23.2842712,30 30,23.2842712 30,15 C30,6.71572875 23.2842712,0 15,0 C6.71572875,0 0,6.71572875 0,15 C0,23.2842712 6.71572875,30 15,30 Z" id="Oval-2"></path>
+            </g>
+            <g id="Page-1" transform="translate(6.428571, 7.142857)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M8.57142857,0 C3.8376,0 0,3.02708021 0,6.76111202 C0,9.19156818 1.626,11.3221729 4.06645714,12.5138815 C3.88714286,13.1814915 3.41725714,14.9330483 3.32348571,15.3078199 C3.20691429,15.7729062 3.49371429,15.7669194 3.68211429,15.6417104 C3.82937143,15.5438696 6.03051429,14.0502568 6.98057143,13.4057387 C7.49622857,13.4820272 8.02782857,13.5223951 8.57142857,13.5223951 C13.3052571,13.5223951 17.1428571,10.4953149 17.1428571,6.76111202 C17.1428571,3.02708021 13.3052571,0 8.57142857,0" id="Fill-1" fill="#F8F8F9" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
